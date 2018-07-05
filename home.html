@@ -1,23 +1,26 @@
-<DOCTYPE= html>
+<DOCTYPE="html">
 <html>
 <link rel="stylesheet" href="css/global.css">
 <link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 <script src="global.js"></script>
 <header>
 
-<img src="images/mountains.png" alt="Mountains!">
+<!-- <img src="images/mountains.png" alt="Mountains!"> -->
 
 </header>
   <nav>
   <div class="">
   <ul>
     <li><a href="home.html" style="color: inherit;">Home</a></li>
-    <li><a href="blog.html" style="color: inherit;">Blog</a></li>
-    <li><a href="creations.html" style="color: inherit;">Creations</a></li>
-    <li><a href="about.html" style="color: inherit;">About</a></li>
-    <li><a href="contact.html" style="color: inherit;">Contact Me</a></li>
+    <li><a href="blog/blog.html" class="w-3button" style="color: inherit;">Blog</a></li>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="blog/weekly.html">Weekly Updates</a>
+      </div>
+    <li><a href="pages/creations.html" style="color: inherit;">Creations</a></li>
+    <li><a href="pages/about.html" style="color: inherit;">About</a></li>
+    <li><a href="pages/contact.html" style="color: inherit;">Contact</a></li>
   </ul>
 </div>
 </nav>
@@ -74,51 +77,26 @@
 
 </body>
 
-  <footer class="footer-distributed" style:"padding-bottom:0%;">
+<footer>
+  <div class="w3-cell-row" style="margin-top: 20px;">
+  <div class="w3-cell w3-mobile" style="float:left;text-align:center;">
+    <p>Copyright 2018, Tristan Goodell</p>
+  </div>
+  <div class="w3-cell w3-mobile" style="float:center;text-align:center;">
+<div class="bnav"><a href="home.html">Home</a></div>
+<div class="bnav"><a href="blog/blog.html">Blog</a></div>
+<div class="bnav"><a href="pages/creations.html">Creations</a></div>
+<div class="bnav"><a href="pages/about.html">About</a></div>
+<div class="bnav"><a href="pages/contact.html">Contact</a></div>
+<div class="bnav"><a href="pages/privacy.html">Privacy Policy</a></div>
+</div>
+  <div class="w3-cell w3-mobile" style="float:right;text-align:center;">
+    <p>Sign up for our newsletter!</p>
+    <input type="email" placeholder="Email Address"></input>
+    <button>Submit</button>
+  </div>
+</div>
+</footer>
 
-    <div class="footer-left">
-
-      <h3>Company<span>logo</span></h3>
-
-      <p class="footer-links">
-        <a href="home.html"> Home -</a>
-
-        <a href="blog.html"> Blog -</a>
-
-        <a href="creations.html"> Creations -</a>
-
-        <a href="about.html"> About -</a>
-
-        <a href="contact.html"> Contact Me </a>
-      </p>
-
-      <p class="footer-company-name">Company Name &copy; 2018</p>
-
-      <div class="footer-icons">
-
-        <a href="#"><i class="icon fa fa-facebook"></i></a>
-        <a href="#"><i class="icon fa fa-twitter"></i></a>
-        <a href="#"><i class="icon fa fa-linkedin"></i></a>
-        <a href="https://github.com/tgoodell"><i class="fa fa-github"></i></a>
-
-      </div>
-
-    </div>
-
-    <div class="footer-right">
-
-      <p>Contact Us</p>
-
-      <form action="#" method="post">
-
-        <input type="text" name="email" placeholder="Email" />
-        <textarea name="message" placeholder="Message"></textarea>
-        <button>Send</button>
-
-      </form>
-
-    </div>
-
-  </footer>
 
 </html>
