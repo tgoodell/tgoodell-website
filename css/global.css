@@ -51,10 +51,13 @@ li a:hover {
 }
 
 .card {
-  width:48.5%;
-  float:left;
-  margin:1%;
+  max-width: 100ch;
+  float:middle;
+  margin:0 auto;
   background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .card-left {
@@ -105,11 +108,9 @@ embeded {
 }
 
 footer {
-    position: absolute;
     bottom:0;
     width: 100%;
     overflow: hidden;
-    height: 10%;
     background-color: #000000;
     color: #ffffff;
     text-decoration: none;
@@ -122,4 +123,8 @@ footer {
   background-color: #000000;
   text-decoration: none;
   display: inline-block;
+}
+
+.preview{
+  width:auto;
 }
