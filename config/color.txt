@@ -1,0 +1,13 @@
+Dark Primary Color: #1976D2
+  Darkened: #005DB9
+Light Primary Color: #BBDEFB
+Primary Color: #2196F3
+  Darkened: #087DDA
+Text/Icons: #ffffff
+
+Accent Color: #536dfe
+Primary Text: #212121
+Secondary Text: #757575
+Divider Color: #BDBDBD
+
+Background Color: #fafafa
